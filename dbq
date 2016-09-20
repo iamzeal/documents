@@ -1,0 +1,27 @@
+CREATE TABLE [dbo].[UserTable_module2] (
+    [UserProfileId]  INT           NOT NULL,
+    [UserId]         INT           NOT NULL,
+    [Password]       VARCHAR (50)  NULL,
+    [Title]          VARCHAR (50)  NULL,
+    [FirstName]      VARCHAR (50)  NULL,
+    [LastName]       NVARCHAR (50) NULL,
+    [DateOfBirth]    DATE          NULL,
+    [Gender]         BIT           NULL,
+    [StreetAddress]  VARCHAR (50)  NULL,
+    [Nationality]    VARCHAR (50)  NULL,
+    [State]          VARCHAR (50)  NULL,
+    [TownOrCity]     VARCHAR (50)  NULL,
+    [ZipCode]        INT           NULL,
+    [MobileNumber]   BIGINT        NULL,
+    [AlternatePhone] BIGINT        NULL,
+    [PhoneNumber]    BIGINT        NULL,
+    [EmailAddress]   VARCHAR (89)  NULL,
+    [CompanyName]    VARCHAR (50)  NULL,
+    [OfficeAddress]  VARCHAR (50)  NULL,
+    [CreatedBy]      VARCHAR (50)  NULL,
+    [CreatedDate]    DATE          NULL,
+    [ModifiedBy]     VARCHAR (50)  NULL,
+    [ModifiedDate]   DATE          NULL,
+    PRIMARY KEY CLUSTERED ([UserProfileId] ASC)
+);
+
